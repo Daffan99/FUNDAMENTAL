@@ -34,5 +34,39 @@ apakahPrima(9);//bukan prima
 
 
 //menemukan jumlah angka 1 hingga N
+let number1 = 3;
+let N = 0;
+for (i = 0 ; i <= number1; i++){
+    N += i
+}
+
+console.log(N);
+
+//faktorial
+
+let number2 = 5;
+let n2 = 1;
+for (i = 1 ; i <= number2; i++){
+    n2 *= i
+}
+console.log(n2);
+//angka fibanaci
+let a = 0;
+let b = 1;
+let not =  a+b;
+let not1 = 10;
+
+console.log(a);
+
+for(i = 1 ; i <= not1 ; i++){
+    console.log(not);
+not = a+b;
+a = b;
+b = not;
+}
+//fibanaci fungscion
+
+
+
 
 
